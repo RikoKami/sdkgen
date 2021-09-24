@@ -9,6 +9,11 @@ $img-size: 40px;
     align-items: center;
     padding: 15px 10px;
 
+    // TODO: use variables
+    &.dark {
+      background-color: #1e2020;
+    }
+
     .logo {
       background-repeat: no-repeat;
       background-size: contain;
